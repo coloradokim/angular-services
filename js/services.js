@@ -1,8 +1,8 @@
 module.service('Book', ['$rootScope', function( $rootScope) {
   var service = {
     books: [
-      { title: "Leaves of Grass", author: Walt Whitman},
-      { title: "East of Eden", author: John Steinbeck}
+      { title: "Leaves of Grass", author: "Walt Whitman"},
+      { title: "East of Eden", author: "John Steinbeck"}
     ],
 
     addBook: function ( book ) {
@@ -11,4 +11,4 @@ module.service('Book', ['$rootScope', function( $rootScope) {
     }
   }
   return service;
-}]); 
+}]);
